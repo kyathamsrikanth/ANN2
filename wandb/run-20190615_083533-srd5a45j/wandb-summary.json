@@ -1,0 +1,325 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_1_input",
+                "id": "flatten_1_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_1",
+                "id": "flatten_1",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_1",
+                "id": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 39250
+            },
+            {
+                "name": "dense_2",
+                "id": "dense_2",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_3",
+                "id": "dense_3",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_4",
+                "id": "dense_4",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_5",
+                "id": "dense_5",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_6",
+                "id": "dense_6",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_7",
+                "id": "dense_7",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_8",
+                "id": "dense_8",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_9",
+                "id": "dense_9",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_10",
+                "id": "dense_10",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_11",
+                "id": "dense_11",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_12",
+                "id": "dense_12",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_13",
+                "id": "dense_13",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_14",
+                "id": "dense_14",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_15",
+                "id": "dense_15",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_16",
+                "id": "dense_16",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    50
+                ],
+                "num_parameters": 2550
+            },
+            {
+                "name": "dense_17",
+                "id": "dense_17",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 510
+            }
+        ],
+        "edges": [
+            [
+                "flatten_1_input",
+                "flatten_1"
+            ],
+            [
+                "flatten_1",
+                "dense_1"
+            ],
+            [
+                "dense_1",
+                "dense_2"
+            ],
+            [
+                "dense_2",
+                "dense_3"
+            ],
+            [
+                "dense_3",
+                "dense_4"
+            ],
+            [
+                "dense_4",
+                "dense_5"
+            ],
+            [
+                "dense_5",
+                "dense_6"
+            ],
+            [
+                "dense_6",
+                "dense_7"
+            ],
+            [
+                "dense_7",
+                "dense_8"
+            ],
+            [
+                "dense_8",
+                "dense_9"
+            ],
+            [
+                "dense_9",
+                "dense_10"
+            ],
+            [
+                "dense_10",
+                "dense_11"
+            ],
+            [
+                "dense_11",
+                "dense_12"
+            ],
+            [
+                "dense_12",
+                "dense_13"
+            ],
+            [
+                "dense_13",
+                "dense_14"
+            ],
+            [
+                "dense_14",
+                "dense_15"
+            ],
+            [
+                "dense_15",
+                "dense_16"
+            ],
+            [
+                "dense_16",
+                "dense_17"
+            ]
+        ]
+    },
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            3,
+            8,
+            2,
+            7,
+            3,
+            2,
+            8,
+            8,
+            7,
+            5,
+            6,
+            0,
+            2,
+            3,
+            2,
+            4,
+            4,
+            9,
+            3,
+            0,
+            7,
+            3,
+            3,
+            6,
+            6,
+            9,
+            1,
+            7,
+            2,
+            1,
+            9,
+            4,
+            7,
+            2,
+            7,
+            3
+        ]
+    },
+    "_step": 19,
+    "epoch": 19,
+    "acc": 0.9875833451747894,
+    "val_acc": 0.9658999943733215,
+    "_timestamp": 1560587768.3540905,
+    "val_loss": 0.13368408873677254,
+    "_runtime": 34.92922329902649,
+    "loss": 0.041184576004743574
+}

@@ -1,0 +1,367 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_1_input",
+                "id": "flatten_1_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_1",
+                "id": "flatten_1",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dropout_1",
+                "id": "dropout_1",
+                "class_name": "Dropout",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_1",
+                "id": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 117750
+            },
+            {
+                "name": "dense_2",
+                "id": "dense_2",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_3",
+                "id": "dense_3",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_4",
+                "id": "dense_4",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_5",
+                "id": "dense_5",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_6",
+                "id": "dense_6",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_7",
+                "id": "dense_7",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_8",
+                "id": "dense_8",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_9",
+                "id": "dense_9",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_10",
+                "id": "dense_10",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_11",
+                "id": "dense_11",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_12",
+                "id": "dense_12",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_13",
+                "id": "dense_13",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_14",
+                "id": "dense_14",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_15",
+                "id": "dense_15",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_16",
+                "id": "dense_16",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dense_17",
+                "id": "dense_17",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 22650
+            },
+            {
+                "name": "dropout_2",
+                "id": "dropout_2",
+                "class_name": "Dropout",
+                "output_shape": [
+                    null,
+                    150
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_18",
+                "id": "dense_18",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 1510
+            }
+        ],
+        "edges": [
+            [
+                "flatten_1_input",
+                "flatten_1"
+            ],
+            [
+                "flatten_1",
+                "dropout_1"
+            ],
+            [
+                "dropout_1",
+                "dense_1"
+            ],
+            [
+                "dense_1",
+                "dense_2"
+            ],
+            [
+                "dense_2",
+                "dense_3"
+            ],
+            [
+                "dense_3",
+                "dense_4"
+            ],
+            [
+                "dense_4",
+                "dense_5"
+            ],
+            [
+                "dense_5",
+                "dense_6"
+            ],
+            [
+                "dense_6",
+                "dense_7"
+            ],
+            [
+                "dense_7",
+                "dense_8"
+            ],
+            [
+                "dense_8",
+                "dense_9"
+            ],
+            [
+                "dense_9",
+                "dense_10"
+            ],
+            [
+                "dense_10",
+                "dense_11"
+            ],
+            [
+                "dense_11",
+                "dense_12"
+            ],
+            [
+                "dense_12",
+                "dense_13"
+            ],
+            [
+                "dense_13",
+                "dense_14"
+            ],
+            [
+                "dense_14",
+                "dense_15"
+            ],
+            [
+                "dense_15",
+                "dense_16"
+            ],
+            [
+                "dense_16",
+                "dense_17"
+            ],
+            [
+                "dense_17",
+                "dropout_2"
+            ],
+            [
+                "dropout_2",
+                "dense_18"
+            ]
+        ]
+    },
+    "_timestamp": 1560600871.1911478,
+    "acc": 0.9836833333015442,
+    "loss": 0.055191349853078525,
+    "_runtime": 119.85914707183838,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            7,
+            1,
+            1,
+            4,
+            2,
+            4,
+            3,
+            3,
+            1,
+            8,
+            4,
+            3,
+            7,
+            7,
+            9,
+            2,
+            9,
+            1,
+            5,
+            7,
+            3,
+            4,
+            8,
+            9,
+            1,
+            5,
+            0,
+            3,
+            8,
+            4,
+            7,
+            7,
+            7,
+            2,
+            7,
+            8
+        ]
+    },
+    "epoch": 49,
+    "val_loss": 0.07536207383871078,
+    "val_acc": 0.982299999332428,
+    "_step": 49
+}

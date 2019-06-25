@@ -1,0 +1,21 @@
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py:423: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Traceback (most recent call last):
+  File "keras_dropout.py", line 66, in <module>
+    epochs=config.epochs, callbacks=[WandbCallback(data_type="image", labels=labels)])
+  File "/opt/conda/lib/python3.7/site-packages/keras/engine/training.py", line 1010, in fit
+    self._make_train_function()
+  File "/opt/conda/lib/python3.7/site-packages/keras/engine/training.py", line 519, in _make_train_function
+    **self._function_kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2744, in function
+    return Function(inputs, outputs, updates=updates, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2575, in __init__
+    'time: %s', session_kwargs.keys())
+ValueError: ('Some keys in session_kwargs are not supported at this time: %s', dict_keys(['batch_size']))

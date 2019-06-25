@@ -1,0 +1,24 @@
+{
+    "root": "/home/jovyan/ANN2",
+    "git": {
+        "remote": "https://github.com/kyathamsrikanth/ANN2.git",
+        "commit": "eca18ce45269b908f8c92d8c7304e1708ea94f4e"
+    },
+    "email": null,
+    "startedAt": "2019-06-15T08:01:11.115569",
+    "host": "jupyter-kyathamsrikanth",
+    "username": "jovyan",
+    "os": "Linux-4.14.119+-x86_64-with-debian-buster-sid",
+    "python": "3.7.3",
+    "gpu": "Tesla K80",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "program": "keras_perceptron.py",
+    "cuda": "10.1.168",
+    "args": [],
+    "state": "finished",
+    "heartbeatAt": "2019-06-15T08:01:54.929718",
+    "jobType": null,
+    "mode": "run",
+    "exitcode": 0
+}

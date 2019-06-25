@@ -1,0 +1,24 @@
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_1 (Flatten)          (None, 784)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 100)               78500     
+_________________________________________________________________
+dense_2 (Dense)              (None, 10)                1010      
+=================================================================
+Total params: 79,510
+Trainable params: 79,510
+Non-trainable params: 0
+_________________________________________________________________
+Traceback (most recent call last):
+  File "keras_perceptron.py", line 49, in <module>
+    model.fit(X_train, y_train, validation_data=(X_test, y_test),batch_size=config.batch_si,
+  File "/opt/conda/lib/python3.7/site-packages/wandb/wandb_config.py", line 181, in __getattr__
+    return self.__getitem__(key)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/wandb_config.py", line 171, in __getitem__
+    return self._items[key]
+KeyError: 'batch_si'
